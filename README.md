@@ -1,6 +1,6 @@
 ## DAWI_T2_POLO_API
 
-__P1__: webappt2.sql
+__Pregunta 1__: webappt2.sql
 ```sql
 DROP DATABASE IF EXISTS webappt2;
 CREATE DATABASE webappt2;
@@ -37,7 +37,7 @@ INSERT INTO productos (nombre_producto, cantidad, precio_unitario, proveedor_id)
 
 ```
 
-__P2__: 
+__Pregunta 2__: 
 listarProductos
 <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/7522a7d0-d4c8-47e1-8e54-b1f5d50876e6" />
 listarProveedores
@@ -47,7 +47,20 @@ agregarProductos
 eliminarProductos
 <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/510998c0-54d0-4345-afed-066365cc3ddf" />
 
-__P3__: 
+__Pregunta 3__: 
+listarProductosPorProveedor
+
+http://localhost:8080/api/productos/por-proveedor?criterio=id&valor=1
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/2073113d-a577-429d-ac45-3dbd2b86a537" />
+
+http://localhost:8080/api/productos/por-proveedor?criterio=apoderado_legal&valor=Juan
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/752feef0-69d0-492b-a1fa-51f5e32440df" />
+
+http://localhost:8080/api/productos/por-proveedor?criterio=direccion&valor=Lima
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/4ca0e068-ac20-401b-b29e-7a7e2e6d47a1" />
+
+http://localhost:8080/api/productos/por-proveedor?criterio=nombre_proveedor&valor=Norte
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/7202a8fb-ce1c-465d-8685-f92ec4bffa01" />
 
 
 __Extra__:
