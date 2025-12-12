@@ -45,7 +45,7 @@ listarProveedores
 agregarProductos
 <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/33b53285-3d5a-4d8c-ad4e-b5ac1e364552" />
 eliminarProductos
-<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/510998c0-54d0-4345-afed-066365cc3ddf" />
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/a509dce9-a4a1-4bb8-9ab9-d11f661e2ffa" />
 
 __Pregunta 3__: 
 listarProductosPorProveedor
