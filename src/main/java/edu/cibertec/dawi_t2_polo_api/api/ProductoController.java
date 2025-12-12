@@ -66,7 +66,7 @@ public class ProductoController {
                         true,
                         "Producto eliminado exitosamente"
                 );
-                return ResponseEntity.ok(response);
+                return ResponseEntity.noContent().build();
             } else {
                 ApiResponse<Void> response = new ApiResponse<>(
                         false,
